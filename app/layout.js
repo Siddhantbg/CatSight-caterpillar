@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
           {/* Overlay text on video */}
           <div className="video-overlay absolute top-0 left-0 w-full h-full bg-black bg-opacity-75 flex flex-col justify-center items-start text-white p-6 md:p-12 lg:p-24 xl:p-48">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-3 lg:mb-4">
-              <br /><br />
+              
               PRECAUTION IS <br /> BETTER THAN CURE
             </h1>
             <p className="text-base md:text-lg lg:text-xl">
