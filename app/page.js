@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 export default function Page() {
   return (
     <>
-          <Navbar bgColor="bg-black" />
-      <div className="additional-text-container align-text-bottom p-5 text-gray-900">
+<Navbar bgColor="bg-gradient-to-r from-gray-800 via-gray-900 to-gray-600" />
+<div className="additional-text-container align-text-bottom p-5 text-gray-900">
       <section className="text-gray-600 body-font">
         <h1 className="flex justify-center text-2xl">OUR TEAM</h1>
   <div className="container px-5 py-18 mx-auto">
@@ -124,7 +124,6 @@ export default function Page() {
       </div>
     </section>
     <div className="container mx-auto p-8">
-      <h1 className="text-3xl font-bold mb-4 text-center">Image Gallery</h1>
       <ImageGallery />
     </div>
     

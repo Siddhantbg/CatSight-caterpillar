@@ -3,10 +3,10 @@ import React, { useState } from "react";
 
 const ImageGallery = () => {
   const images = [
-    "/3-removebg-preview.png", // Add your image paths here
-    "/3-removebg-preview.png",
-    "/3-removebg-preview.png",
-  ];
+    "/dozer.png", // Ensure these paths are correct
+    "/jcb1.jpg",
+    "/excavator.png",
+   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -36,7 +36,7 @@ const ImageGallery = () => {
         <div className="w-64 h-64 flex justify-center items-center">
           <img
             src={images[currentIndex]}
-            alt="Gallery Image"
+            alt={`Gallery Image ${currentIndex + 1}`}
             className="object-cover h-full w-full"
           />
         </div>
