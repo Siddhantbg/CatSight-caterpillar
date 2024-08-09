@@ -27,13 +27,13 @@ const Navbar = ({ bgColor }) => {
             <img className='w-64' src="/Screenshot_2024-08-09_155040-removebg-preview (1).svg" alt="Logo" />
           </a>
           <nav className="md:ml-auto md:mr-auto text-white flex gap-16 flex-wrap items-center text-xl justify-center">
-            <a className="mr-5 hover:text-gray-300 cursor-pointer">How It Works</a>
-            <a className="mr-5 hover:text-gray-300 cursor-pointer">The App</a>
-            <a className="mr-5 hover:text-gray-300 cursor-pointer">Reviews</a>
+            <a className="mr-5 hover:text-yellow-400 cursor-pointer">How It Works</a>
+            <a className="mr-5 hover:text-yellow-400 cursor-pointer">The App</a>
+            <a className="mr-5 hover:text-yellow-400 cursor-pointer">Reviews</a>
           </nav>
           <button
             type="button"
-            className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
+            className="py-2.5 px-5 me-2 mb-2 text-lg font-medium text-gray-900 focus:outline-none bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-100 hover:text-yellow-400 focus:z-10 focus:ring-4 focus:ring-gray-100"
           >
             Sign Up
           </button>
