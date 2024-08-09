@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
             playsInline
             className="background-video absolute top-0 left-0 w-full h-full object-cover"
           >
-            <source src="/bgvideo.mp4" type="video/mp4" />
+            <source src="/bgvideo1.mp4" type="video/mp4" />
             {/* <source src="https://youtu.be/4Y31MD36xF4?feature=shared" type="video/mp4" /> */}
           </video>
 
