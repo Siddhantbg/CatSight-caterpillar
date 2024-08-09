@@ -11,7 +11,7 @@ export default function Page() {
         <div className="h-full text-center">
           <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/1-removebg-preview.png"/>
           <p className="leading-relaxed">Saptarshi Mahapatra</p>
-          <span className="inline-block h-1 w-10 rounded bg-yellow-400 mt-6 mb-4"></span>
+          <span className="inline-block h-1 w-10 rounded bg-green-400 mt-6 mb-4"></span>
           <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">CatSight</h2>
           <p className="text-gray-500">UI/UX Designer</p>
         </div>
@@ -20,7 +20,7 @@ export default function Page() {
         <div className="h-full text-center">
           <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/1-removebg-preview.png"/>
           <p className="leading-relaxed">Siddhant Bhagat</p>
-          <span className="inline-block h-1 w-10 rounded bg-yellow-400 mt-6 mb-4"></span>
+          <span className="inline-block h-1 w-10 rounded bg-green-400 mt-6 mb-4"></span>
           <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">CatSight</h2>
           <p className="text-gray-500">Web Developer</p>
         </div>
@@ -29,7 +29,7 @@ export default function Page() {
         <div className="h-full text-center">
           <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/1-removebg-preview.png"/>
           <p className="leading-relaxed">Suyash Verma</p>
-          <span className="inline-block h-1 w-10 rounded bg-yellow-400 mt-6 mb-4"></span>
+          <span className="inline-block h-1 w-10 rounded bg-green-400 mt-6 mb-4"></span>
           <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">CatSight</h2>
           <p className="text-gray-500">ML Developer</p>
         </div>
@@ -72,13 +72,13 @@ export default function Page() {
         {/* Right section with the icons and text */}
         <div className="flex flex-col flex-wrap lg:py-6 lg:w-1/2 lg:pl-12 lg:text-left text-center">
           <div className="flex flex-col mb-10 lg:items-start items-center">
-            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-yellow-400 text-yellow-500 mb-5">
-              <img src="/screwlotee.svg" alt="pana" />
+            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-green-400 text-green-500 mb-5">
+              <img src="/screwm.webp" alt="pana" />
             </div>
             <div className="flex-grow">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
               <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-              <a className="mt-3 text-yellow-500 inline-flex items-center">Learn More
+              <a className="mt-3 text-green-500 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -87,13 +87,13 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col mb-10 lg:items-start items-center">
-            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-yellow-400 text-yellow-500 mb-5">
-              <img src="/panalotte.svg" alt="" />
+            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-green-400 text-green-500 mb-5">
+              <img src="\pana.webp" alt="" />
             </div>
             <div className="flex-grow">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
               <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-              <a className="mt-3 text-yellow-500 inline-flex items-center">Learn More
+              <a className="mt-3 text-green-500 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -102,13 +102,13 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col mb-10 lg:items-start items-center">
-            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-yellow-400 text-yellow-500 mb-5">
-              <img src="/laderlotte.svg" alt="" />
+            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-green-400 text-green-500 mb-5">
+              <img src="\ladder.webp" alt="" />
             </div>
             <div className="flex-grow">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
               <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-              <a className="mt-3 text-yellow-500 inline-flex items-center">Learn More
+              <a className="mt-3 text-green-500 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
