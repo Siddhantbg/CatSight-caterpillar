@@ -1,4 +1,4 @@
-import ImageGallery from "./components/Imagegallery";
+import ImageGallery from "./components/ImageGallery";
 import Navbar from "./components/Navbar";
 export default function Page() {
   return (
