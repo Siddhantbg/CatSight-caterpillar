@@ -22,18 +22,20 @@ export default function RootLayout({ children }) {
             className="background-video absolute top-0 left-0 w-full h-full object-cover"
           >
             <source src="/bgvideo.mp4" type="video/mp4" />
+            {/* <source src="https://youtu.be/4Y31MD36xF4?feature=shared" type="video/mp4" /> */}
           </video>
 
           {/* Overlay text on video */}
-          <div className="video-overlay absolute top-0 left-0 w-full h-full bg-black bg-opacity-75 flex flex-col justify-center items-start text-white p-48">
-            <h1 className="text-4xl font-bold mb-4">
+          <div className="video-overlay absolute top-0 left-0 w-full h-full bg-black bg-opacity-75 flex flex-col justify-center items-start text-white p-6 md:p-12 lg:p-24 xl:p-48">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-3 lg:mb-4">
               PRECAUTION IS <br /> BETTER THAN CURE
             </h1>
-            <p className="text-xl">
+            <p className="text-base md:text-lg lg:text-xl">
               Additional text content can go here,<br /> providing more context or a
               message beneath <br /> the main heading.
             </p>
           </div>
+
 
           {/* Overlay content (Navbar) */}
           <div className="content-container relative">
