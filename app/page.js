@@ -3,12 +3,12 @@ import Navbar from "./components/Navbar";
 export default function Page() {
   return (
     <>
-          <Navbar bgColor="bg-gray-400" />
-      <div className="additional-text-container align-text-bottom p-5 bg-gray-300 text-gray-900">
+          <Navbar bgColor="bg-black" />
+      <div className="additional-text-container align-text-bottom p-5 text-gray-900">
       <section className="text-gray-600 body-font">
         <h1 className="flex justify-center text-2xl">MY TEAM</h1>
   <div className="container px-5 py-18 mx-auto">
-    <div className="flex flex-wrap-m-4">
+    <div className="flex flex-wrap-m-4 ">
       <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
         <div className="h-full text-center">
           <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/1-removebg-preview.png"/>
@@ -38,12 +38,13 @@ export default function Page() {
       </div>
     </div>
   </div>
-  <Navbar bgColor="bg-black" />
+
 
 </section>
       </div>
-      
+
       <section className="text-gray-600 body-font">
+
       <div className="container mx-auto px-5 py-24 flex flex-wrap lg:flex-nowrap">
         {/* Left section with the iframe */}
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
