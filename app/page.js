@@ -6,12 +6,12 @@ export default function Page() {
           <Navbar bgColor="bg-black" />
       <div className="additional-text-container align-text-bottom p-5 text-gray-900">
       <section className="text-gray-600 body-font">
-        <h1 className="flex justify-center text-2xl">MY TEAM</h1>
+        <h1 className="flex justify-center text-2xl">OUR TEAM</h1>
   <div className="container px-5 py-18 mx-auto">
     <div className="flex flex-wrap-m-4 ">
       <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
         <div className="h-full text-center">
-          <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/1-removebg-preview.png"/>
+          <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/rishi.jpg"/>
           <p className="leading-relaxed">Saptarshi Mahapatra</p>
           <span className="inline-block h-1 w-10 rounded bg-green-400 mt-6 mb-4"></span>
           <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">CatSight</h2>
@@ -20,7 +20,7 @@ export default function Page() {
       </div>
       <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
         <div className="h-full text-center">
-          <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/1-removebg-preview.png"/>
+          <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/WhatsApp Image 2024-08-10 at 00.43.32_f72522ec.jpg"/>
           <p className="leading-relaxed">Siddhant Bhagat</p>
           <span className="inline-block h-1 w-10 rounded bg-green-400 mt-6 mb-4"></span>
           <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">CatSight</h2>
@@ -29,7 +29,7 @@ export default function Page() {
       </div>
       <div className="lg:w-1/3 lg:mb-0 p-4">
         <div className="h-full text-center">
-          <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/1-removebg-preview.png"/>
+          <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/IMG_0109.jpg"/>
           <p className="leading-relaxed">Suyash Verma</p>
           <span className="inline-block h-1 w-10 rounded bg-green-400 mt-6 mb-4"></span>
           <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">CatSight</h2>
