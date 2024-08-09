@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure the video covers the entire background */
+/* Ensure the video covers the entire background */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* Black overlay with opacity */
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.75; 
+  z-index: -1;
+}
+
+/* Overlay text with high z-index, centered on the screen */
+.video-overlay::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1; /* Ensure it is above the video */
+}
+
+/* Position the content over the video */
+.content-container {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Additional text content after the video */
+.additional-text-container {
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
