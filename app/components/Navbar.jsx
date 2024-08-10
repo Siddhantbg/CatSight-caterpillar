@@ -74,9 +74,13 @@ const Navbar = ({ bgColor,textColor  }) => {
           {isMobileMenuOpen && (
             <div className="md:hidden bg-gray-800 text-white absolute top-16 left-0 w-full px-4 py-4 z-50">
               <nav className="flex flex-col items-start">
-                <a className="py-2 hover:text-yellow-400 cursor-pointer">How It Works</a>
-                <a className="py-2 hover:text-yellow-400 cursor-pointer">The App</a>
-                <a className="py-2 hover:text-yellow-400 cursor-pointer">Reviews</a>
+              <nav className={` ${textColor} hidden md:flex md:ml-auto md:mr-auto flex gap-16 flex-wrap items-center text-xl justify-center`}>
+      {links.map((link, index) => (
+        <a key={index} href={link.path} className="mr-5 hover:text-yellow-400 cursor-pointer">
+          {link.name}
+        </a>
+      ))}
+    </nav>
                 <button type="button" className="py-2.5 px-5 me-2 mb-2 mt-4 text-lg font-medium text-gray-900 focus:outline-none bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-100 hover:text-yellow-400 focus:z-10 focus:ring-4 focus:ring-gray-100">
                   Sign Up
                 </button>
